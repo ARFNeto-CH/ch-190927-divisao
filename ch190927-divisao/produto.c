@@ -76,7 +76,7 @@ int produto(const int x, const int y)
 
 int testa_produto(int a, int b)
 {
-	int p = prod(a, b);
+	int p = produto(a, b);
 	int r = a * b;
 	if (p == r)
 	{

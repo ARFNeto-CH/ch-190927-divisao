@@ -1,0 +1,7 @@
+Saida teste prod()
+========
+produto(9,6) retornou 54  (ok)
+produto(6,9) retornou 54  (ok)
+produto(10,1000) retornou 10000  (ok)
+produto(90987,656) retornou 59687472  (ok)
+========

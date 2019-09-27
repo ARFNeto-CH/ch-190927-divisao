@@ -1,0 +1,48 @@
+Testando produto()
+========
+
+Calculando produto de (9,6)
+saida depois de 4 passos. Eis a tabela:
+00             9 <==             6 *
+01             4                12
+02             2                24
+03             1 <==            48 *
+produto(9,6) retornou 54  (ok)
+
+Calculando produto de (6,9)
+saida depois de 3 passos. Eis a tabela:
+00             6                 9
+01             3 <==            18 *
+02             1 <==            36 *
+produto(6,9) retornou 54  (ok)
+
+Calculando produto de (10,1000)
+saida depois de 4 passos. Eis a tabela:
+00            10              1000
+01             5 <==          2000 *
+02             2              4000
+03             1 <==          8000 *
+produto(10,1000) retornou 10000  (ok)
+
+Calculando produto de (90987,656)
+saida depois de 17 passos. Eis a tabela:
+00         90987 <==           656 *
+01         45493 <==          1312 *
+02         22746              2624
+03         11373 <==          5248 *
+04          5686             10496
+05          2843 <==         20992 *
+06          1421 <==         41984 *
+07           710             83968
+08           355 <==        167936 *
+09           177 <==        335872 *
+10            88            671744
+11            44           1343488
+12            22           2686976
+13            11 <==       5373952 *
+14             5 <==      10747904 *
+15             2          21495808
+16             1 <==      42991616 *
+produto(90987,656) retornou 59687472  (ok)
+
+========
