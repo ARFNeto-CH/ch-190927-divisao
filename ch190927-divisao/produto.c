@@ -12,10 +12,6 @@ int testa_produto(int, int);
 
 int main()
 {
-	int c = 4;
-	printf("%d %d %d\n", c, c << 1, c >> 1);
-
-
 	testa_produto(9, 6);
 	testa_produto(6, 9);
 	testa_produto(10, 1000);
