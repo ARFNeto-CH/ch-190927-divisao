@@ -5,24 +5,9 @@
 #include	<string.h>
 
 
-int prod(const int x, const int y);		// sem as mensagens
-int produto(const int x, const int y);	
-
-
-int testa_produto(int a, int b)
-{
-	int p = prod(a, b);
-	int r = a * b;
-	if (p == r)
-	{
-		printf("produto(%d,%d) retornou %d  (ok)\n", a, b, p);
-	}
-	else
-	{
-		printf("produto(%d,%d) retornou %d  (ERRO)\n", a, b, p);
-	}
-	return (p == a * b);
-}	// end testa_produto()
+int prod(const int, const int);		// sem as mensagens
+int produto(const int, const int);	
+int testa_produto(int, int);
 
 
 int main()
@@ -94,3 +79,19 @@ int produto(const int x, const int y)
 	}	// end for
 	return valor;
 }	// end produto()
+
+
+int testa_produto(int a, int b)
+{
+	int p = prod(a, b);
+	int r = a * b;
+	if (p == r)
+	{
+		printf("produto(%d,%d) retornou %d  (ok)\n", a, b, p);
+	}
+	else
+	{
+		printf("produto(%d,%d) retornou %d  (ERRO)\n", a, b, p);
+	}
+	return (p == a * b);
+}	// end testa_produto()
