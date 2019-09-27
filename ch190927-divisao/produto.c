@@ -12,6 +12,10 @@ int testa_produto(int, int);
 
 int main()
 {
+	int c = 4;
+	printf("%d %d %d\n", c, c << 1, c >> 1);
+
+
 	testa_produto(9, 6);
 	testa_produto(6, 9);
 	testa_produto(10, 1000);
@@ -21,23 +25,16 @@ int main()
 
 int prod(const int x, const int y)
 {
-	int		linha[32][2];
 	int		quociente = x;
 	int		b = y;
-	int		passo = 1;
 	int		valor = 0;
 
-	linha[0][0] = x;
-	linha[0][1] = y;
 	if ((x % 2) == 1) valor = valor + y;
 	do
 	{
 		quociente = quociente / 2;
 		b = b * 2;
-		linha[passo][0] = quociente;
-		linha[passo][1] = b;
 		if ((quociente % 2) == 1) valor = valor + b;
-		passo = passo + 1;
 	} while (quociente > 1);
 	return valor;
 }	// end produto()
